@@ -1,9 +1,41 @@
 #coinImg {
   position: absolute;
+  left: 55%;
+  transform: translateX(-50%);
+  top: 30%;
+
+  height: 250px;
+  width: 250px;
+}
+
+#btn {
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 40%;
+  bottom: 10%;
 
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 200px;
+
+  font-size: 20px;
+
+  border: none;
+  background-color: yellow;
+}
+
+#SonBadak {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: -1;
+}
+
+#SonDeung {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 20%;
+
+  z-index: 1;
 }
