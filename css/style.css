@@ -1,0 +1,9 @@
+#coinImg {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+
+  height: 100px;
+  width: 100px;
+}
