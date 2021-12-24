@@ -1,19 +1,37 @@
+#feedbackLog {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 10%;
+
+  width: 300px;
+  height: 50px;
+
+  font-size: 30px;
+}
+
 #coinImg {
   position: absolute;
   left: 55%;
   transform: translateX(-50%);
-  top: 30%;
+  top: 33%;
 
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
 }
 
-#btn {
+#btnDiv {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   bottom: 10%;
 
+  z-index: 3;
+}
+
+#btn,
+#showBtn,
+#rstBtn {
   height: 50px;
   width: 200px;
 
@@ -33,9 +51,9 @@
 
 #SonDeung {
   position: absolute;
-  left: 50%;
+  left: 53%;
+  top: 5%;
   transform: translateX(-50%);
-  top: 20%;
 
   z-index: 1;
 }
